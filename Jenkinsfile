@@ -9,7 +9,7 @@ pipeline {
 
     parameters {
         string (name: 'BRANCH',  defaultValue: 'main', description: 'Branch to Build')
-        string (name: 'slack_room', defaultValue: 'team-periscope', description: 'Specify the slack room to announce in')
+        string (name: 'slack_room', defaultValue: 'test-prometheus-alerts', description: 'Specify the slack room to announce in')
     }
 
     options {
